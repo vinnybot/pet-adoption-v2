@@ -43,7 +43,7 @@ const updatePetSchema = Joi.object({
 const router = express.Router();
 
 // define routes
-router.get('/list', async (req, res, next) => {
+router.get('/list', isLoggedIn(), async (req, res, next) => {
   try {
     // get inputs
     let { keywords, species, minAge, maxAge, sortBy, pageNumber, pageSize } =

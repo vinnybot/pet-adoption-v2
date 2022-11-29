@@ -10,7 +10,7 @@
     "port": 5000
   },
   "db": {
-    "url": "mongodb://localhost:27017",
+    "url": "mongodb+srv://admin:BOT9426sep@cluster0.kc7k3r6.mongodb.net/test",
     "name": "pet-adoption"
   },
   "auth": {
